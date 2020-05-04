@@ -24,5 +24,10 @@ vcfutils.pl vcf2fq $name.vcf > $name.fastq
 #fastq to fasta
 seqtk seq -aQ64 -q5 -n N $name.fastq > $name.fasta
 #fix fasta header
-awk '/^>/ {gsub(/.fa(sta)?$/,"",FILENAME);printf(">%s\n",FILENAME);next;} {print}' $name.fasta  >$name.fixed.fasta
+##this option if you have one sequence only and do not want the reference name in the header
+##taken from https://www.biostars.org/p/204541/
+#awk '/^>/ {gsub(/.fa(sta)?$/,"",FILENAME);printf(">%s\n",FILENAME);next;} {print}' $name.fasta  >$name.fixed.fasta
+##this option if you want the ref name in the header (useful for >1 ref sequences)
+##https://www.unix.com/unix-for-dummies-questions-and-answers/242665-append-file-name-fasta-file-headers-linux.html
+awk '/>/{sub(">","&"FILENAME"_");sub(/\.fasta/,x)}1' $name.fasta > $name.fixed.fasta
 echo "$name done!"
