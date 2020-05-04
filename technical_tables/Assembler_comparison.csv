@@ -1,0 +1,11 @@
+Sample,Assembler,BUSCO,S,D,F,M,Assembler_details,"Runtime, sec","Runtime, est. min"
+EveBK_B3_1,rnaSPAdes,"C:60.5%[S:53.1%,D:7.4%],F:27.1%,M:12.4%,n:1066",53.1,7.4,27.1,12.4,-t 6; SPAdes v3.14.0,,26
+EveBK_B3_1,Trinity,"C:57.3%[S:36.5%,D:20.8%],F:27.7%,M:15.0%,n:1066",36.5,20.8,27.7,15,--max_memory 30G --CPU 6; Trinity-v2.10.0,52365,872.75
+EveBK_B24_1,rnaSPAdes,"C:47.7%[S:44.3%,D:3.4%],F:31.0%,M:21.3%,n:1066",44.3,3.4,31,21.3,-t 6; SPAdes v3.14.0,,25
+EveBK_B24_1,Trinity,"C:45.9%[S:34.6%,D:11.3%],F:30.8%,M:23.3%,n:1066",34.6,11.3,30.8,23.3,--max_memory 30G --CPU 6; Trinity-v2.10.0,36137,602.283333333333
+EcyBK_B24_3,rnaSPAdes,"C:46.0%[S:43.4%,D:2.6%],F:33.9%,M:20.1%,n:1066",43.4,2.6,33.9,20.1,-t 6; SPAdes v3.14.0,,33
+EcyBK_B24_3,Trinity,"C:43.5%[S:33.8%,D:9.7%],F:32.0%,M:24.5%,n:1066",33.8,9.7,32,24.5,--max_memory 30G --CPU 6; Trinity-v2.10.0,39528,658.8
+EcyBK_B24_2,rnaSPAdes,"C:53.6%[S:49.7%,D:3.9%],F:29.8%,M:16.6%,n:1066",49.7,3.9,29.8,16.6,-t 6; SPAdes v3.14.0,,36
+EcyBK_B24_2,Trinity,"C:52.4%[S:38.5%,D:13.9%],F:28.9%,M:18.7%,n:1066",38.5,13.9,28.9,18.7,--max_memory 30G --CPU 6; Trinity-v2.10.0,36310,605.166666666667
+EcyBK_B24_1,rnaSPAdes,"C:43.7%[S:40.1%,D:3.6%],F:35.3%,M:21.0%,n:1066",40.1,3.6,35.3,21,-t 6; SPAdes v3.14.0,,NA
+EcyBK_B24_1,Trinity,"C:40.8%[S:30.8%,D:10.0%],F:34.9%,M:24.3%,n:1066",30.8,10,34.9,24.3,--max_memory 30G --CPU 6; Trinity-v2.10.0,46296,771.6
