@@ -1,0 +1,262 @@
+IQ-TREE 2.1.3 COVID-edition built Apr 21 2021
+
+Input file name: concat15genes24samples.aln.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 717790
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 24 sequences with 11305 nucleotide sites
+Number of constant sites: 8375 (= 74.0823% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 8375 (= 74.0823% of all sites)
+Number of parsimony informative sites: 1349
+Number of distinct site patterns: 360
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+R3         -31174.395   62454.789 +    0.166   62455.298 +    0.168   62843.438 +    0.917
+TN+F+R3          -31173.469   62454.938 +    0.154   62455.466 +    0.154   62850.920 -   0.0218
+TPM3+F+R3        -31173.868   62455.737 +    0.103   62456.265 +    0.104   62851.719 -   0.0146
+TPM3u+F+R3       -31173.910   62455.820 +   0.0992   62456.348 +   0.0993   62851.802 -    0.014
+TPM2u+F+R3       -31174.134   62456.267 +   0.0793   62456.795 +   0.0794   62852.249 -   0.0112
+TPM2+F+R3        -31174.134   62456.267 +   0.0793   62456.795 +   0.0794   62852.249 -   0.0112
+K3Pu+F+R3        -31174.310   62456.621 +   0.0665   62457.149 +   0.0666   62852.603 -  0.00938
+TIM3+F+R3        -31172.928   62455.856 +   0.0974   62456.403 +   0.0966   62859.171 - 0.000352
+TIM2+F+R3        -31173.306   62456.612 +   0.0667   62457.160 +   0.0662   62859.927 - 0.000241
+TIM+F+R3         -31173.419   62456.837 +   0.0596   62457.385 +   0.0591   62860.152 - 0.000215
+TVM+F+R3         -31173.831   62459.662 -   0.0145   62460.230 -   0.0143   62870.310 - 1.34e-06
+GTR+F+R3         -31172.892   62459.785 -   0.0137   62460.373 -   0.0133   62877.766 - 3.22e-08
+GTR+F+R4         -31179.777   62477.554 - 1.89e-06   62478.184 -  1.8e-06   62910.201 - 2.92e-15
+GTR+F+R2         -31316.368   62742.735 - 4.94e-64   62743.283 -  4.9e-64   63146.050 - 1.78e-66
+GTR+F+I+G4       -31334.560   62779.121 -  6.2e-72   62779.668 - 6.15e-72   63182.436 - 2.24e-74
+GTR+F+G4         -31388.742   62885.484 - 4.97e-95   62886.012 - 4.97e-95   63281.466 - 7.01e-96
+GTR+F+I          -31457.641   63023.281 - 5.94e-125   63023.809 - 5.95e-125   63419.263 - 8.39e-126
+GTR+F            -32057.014   64220.028 -        0   64220.537 -        0   64608.677 -        0
+TVMe+R3          -32143.898   64393.796 -        0   64394.305 -        0   64782.445 -        0
+SYM+R3           -32141.833   64391.666 -        0   64392.194 -        0   64787.648 -        0
+TIM3e+R3         -32158.841   64421.682 -        0   64422.172 -        0   64802.998 -        0
+TIM2e+R3         -32169.203   64442.406 -        0   64442.896 -        0   64823.722 -        0
+K3P+R3           -32176.178   64454.356 -        0   64454.827 -        0   64828.339 -        0
+TIMe+R3          -32173.959   64451.919 -        0   64452.409 -        0   64833.235 -        0
+K2P+R3           -32186.083   64472.166 -        0   64472.619 -        0   64838.816 -        0
+TNe+R3           -32183.902   64469.804 -        0   64470.275 -        0   64843.787 -        0
+F81+F+R3         -32286.539   64677.077 -        0   64677.567 -        0   65058.393 -        0
+JC+R3            -33132.162   66362.324 -        0   66362.760 -        0   66721.641 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+R3
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 9.5354
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 9.5354
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.291
+  pi(C) = 0.1557
+  pi(G) = 0.1675
+  pi(T) = 0.3858
+
+Rate matrix Q:
+
+  A   -0.8315   0.06055     0.621      0.15
+  C    0.1131    -1.609   0.06512      1.43
+  G     1.079   0.06055    -1.289      0.15
+  T    0.1131    0.5774   0.06512   -0.7557
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.744,0.04991) (0.238,1.118) (0.01806,38.59)
+
+ Category  Relative_rate  Proportion
+  1         0.04991        0.744
+  2         1.118          0.238
+  3         38.59          0.01806
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -31074.3338 (s.e. 279.9373)
+Unconstrained log-likelihood (without tree): -29526.4201
+Number of free parameters (#branches + #model parameters): 53
+Akaike information criterion (AIC) score: 62254.6676
+Corrected Akaike information criterion (AICc) score: 62255.1763
+Bayesian information criterion (BIC) score: 62643.3166
+
+Total tree length (sum of branch lengths): 1.9371
+Sum of internal branch lengths: 1.0780 (55.6505% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'EveBK_KF690638' is drawn at root
+Numbers in parentheses are  / aBayes support / ultrafast bootstrap support (%)
+
+                                                             +--EcyBK_10346orange_filt_mitofinder
+                                                          +--| (/0.49/75)
+                                                          |  |  +--EcyPB_2_filt_mitofinder
+                                                          |  +--| (/1/93)
+                                                          |     +--EcySR_KX341964
++---------------------------------------------------------| (/1/100)
+|                                                         |                          +--EcyBK_1034blue_filt_mitofinder
+|                                                         |                       +**| (/1/31)
+|                                                         |                       |  |  +--EcyBK_2013_B24h_4_filt_mitofinder
+|                                                         |                       |  +**| (/0.333/7)
+|                                                         |                       |     +--EcyPB_10_filt_mitofinder
+|                                                         |                    +--| (/1/36)
+|                                                         |                    |  |     +**EcyBK_2013_10LT24_2_filt_mitofinder
+|                                                         |                    |  |  +--| (/0.732/19)
+|                                                         |                    |  |  |  |        +--EcyBK_2013_10LT24_3_filt_mitofinder
+|                                                         |                    |  |  |  |     +--| (/0.999/47)
+|                                                         |                    |  |  |  |     |  |        +--EcyBK_2013_B24h_3_filt_mitofinder
+|                                                         |                    |  |  |  |     |  |     +--| (/0.905/80)
+|                                                         |                    |  |  |  |     |  |     |  +--EcyBK_2016_control_129_filt_mitofinder
+|                                                         |                    |  |  |  |     |  |  +--| (/1/99)
+|                                                         |                    |  |  |  |     |  |  |  +--EcyPB_3_filt_mitofinder
+|                                                         |                    |  |  |  |     |  +--| (/1/100)
+|                                                         |                    |  |  |  |     |     +--EcyBK_2016_treatment_563_filt_mitofinder
+|                                                         |                    |  |  |  |  +--| (/1/51)
+|                                                         |                    |  |  |  |  |  +--EcyBK_2016_treatment_560_filt_mitofinder
+|                                                         |                    |  |  |  +--| (/1/68)
+|                                                         |                    |  |  |     +--EcyBK_2016_control_562_filt_mitofinder
+|                                                         |                    |  +**| (/0.334/17)
+|                                                         |                    |     +--EcyBK_2016_control_133_filt_mitofinder
+|                                                         |                 +--| (/0.973/37)
+|                                                         |                 |  +--EcyBK_2013_10LT24_4_filt_mitofinder
+|                                                         |              +--| (/0.991/54)
+|                                                         |              |  +--EcyBK_2016_control_130_filt_mitofinder
+|                                                         |           +--| (/1/65)
+|                                                         |           |  +--EcyBK_2013_B24h_1_filt_mitofinder
+|                                                         |        +--| (/0.94/66)
+|                                                         |        |  +--EcyBK_2013_B24h_2_filt_mitofinder
+|                                                         |     +--| (/1/98)
+|                                                         |     |  +--EcyBK_2013_10LT24_1_filt_mitofinder
+|                                                         |  +--| (/1/94)
+|                                                         |  |  +--EcyBK_2016_control_131_filt_mitofinder
+|                                                         +--| (/0.959/84)
+|                                                            +--EcyBK_2016_treatment_561_filt_mitofinder
+|
++-----------------------EveBK_KF690638
+|
++---------------------EviSR_KM287572
+
+Tree in newick format:
+
+(((EcyBK_10346orange_filt_mitofinder:0.0026506089,(EcyPB_2_filt_mitofinder:0.0007305777,EcySR_KX341964:0.0118259915)/1/93:0.0060633876)/0.49/75:0.0029289746,(((((((((EcyBK_1034blue_filt_mitofinder:0.0002596063,(EcyBK_2013_B24h_4_filt_mitofinder:0.0014209349,EcyPB_10_filt_mitofinder:0.0006092758)/0.333/7:0.0000020465)/1/31:0.0000867119,((EcyBK_2013_10LT24_2_filt_mitofinder:0.0000864175,(((EcyBK_2013_10LT24_3_filt_mitofinder:0.0008174926,(((EcyBK_2013_B24h_3_filt_mitofinder:0.0017444295,EcyBK_2016_control_129_filt_mitofinder:0.0019382625)/0.905/80:0.0007066808,EcyPB_3_filt_mitofinder:0.0017667023)/1/99:0.0011748441,EcyBK_2016_treatment_563_filt_mitofinder:0.0003605629)/1/100:0.0020120408)/0.999/47:0.0007728692,EcyBK_2016_treatment_560_filt_mitofinder:0.0004140236)/1/51:0.0008820027,EcyBK_2016_control_562_filt_mitofinder:0.0008445823)/1/68:0.0012097297)/0.732/19:0.0001723107,EcyBK_2016_control_133_filt_mitofinder:0.0012370015)/0.334/17:0.0000020362)/1/36:0.0001762852,EcyBK_2013_10LT24_4_filt_mitofinder:0.0004340917)/0.973/37:0.0001709900,EcyBK_2016_control_130_filt_mitofinder:0.0005218026)/0.991/54:0.0001783273,EcyBK_2013_B24h_1_filt_mitofinder:0.0005182367)/1/65:0.0004065209,EcyBK_2013_B24h_2_filt_mitofinder:0.0002941859)/0.94/66:0.0004825447,EcyBK_2013_10LT24_1_filt_mitofinder:0.0011789767)/1/98:0.0017771337,EcyBK_2016_control_131_filt_mitofinder:0.0008180237)/1/94:0.0040462730,EcyBK_2016_treatment_561_filt_mitofinder:0.0002300470)/0.959/84:0.0060119368)/1/100:1.0487449130,EveBK_KF690638:0.4306710261,EviSR_KM287572:0.3977243032);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -31082.676711
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                             +--EcyBK_10346orange_filt_mitofinder
+                                                          +--| (75)
+                                                          |  |  +--EcyPB_2_filt_mitofinder
+                                                          |  +--| (93)
+                                                          |     +--EcySR_KX341964
++---------------------------------------------------------| (100)
+|                                                         |                             +--EcyBK_1034blue_filt_mitofinder
+|                                                         |                          +--| (34)
+|                                                         |                          |  |  +--EcyBK_2013_10LT24_2_filt_mitofinder
+|                                                         |                          |  +--| (59)
+|                                                         |                          |     +--EcyPB_10_filt_mitofinder
+|                                                         |                       +--| (15)
+|                                                         |                       |  +--EcyBK_2013_B24h_4_filt_mitofinder
+|                                                         |                    +--| (36)
+|                                                         |                    |  |        +--EcyBK_2013_10LT24_3_filt_mitofinder
+|                                                         |                    |  |     +--| (51)
+|                                                         |                    |  |     |  |           +--EcyBK_2013_B24h_3_filt_mitofinder
+|                                                         |                    |  |     |  |        +--| (80)
+|                                                         |                    |  |     |  |        |  +--EcyBK_2016_control_129_filt_mitofinder
+|                                                         |                    |  |     |  |     +--| (99)
+|                                                         |                    |  |     |  |     |  +--EcyPB_3_filt_mitofinder
+|                                                         |                    |  |     |  |  +--| (100)
+|                                                         |                    |  |     |  |  |  +--EcyBK_2016_treatment_563_filt_mitofinder
+|                                                         |                    |  |     |  +--| (51)
+|                                                         |                    |  |     |     +--EcyBK_2016_treatment_560_filt_mitofinder
+|                                                         |                    |  |  +--| (68)
+|                                                         |                    |  |  |  +--EcyBK_2016_control_562_filt_mitofinder
+|                                                         |                    |  +--| (24)
+|                                                         |                    |     +--EcyBK_2016_control_133_filt_mitofinder
+|                                                         |                 +--| (37)
+|                                                         |                 |  +--EcyBK_2013_10LT24_4_filt_mitofinder
+|                                                         |              +--| (54)
+|                                                         |              |  +--EcyBK_2016_control_130_filt_mitofinder
+|                                                         |           +--| (65)
+|                                                         |           |  +--EcyBK_2013_B24h_1_filt_mitofinder
+|                                                         |        +--| (66)
+|                                                         |        |  +--EcyBK_2013_B24h_2_filt_mitofinder
+|                                                         |     +--| (98)
+|                                                         |     |  +--EcyBK_2013_10LT24_1_filt_mitofinder
+|                                                         |  +--| (94)
+|                                                         |  |  +--EcyBK_2016_control_131_filt_mitofinder
+|                                                         +--| (84)
+|                                                            +--EcyBK_2016_treatment_561_filt_mitofinder
+|
++-----------------------EveBK_KF690638
+|
++---------------------EviSR_KM287572
+
+
+Consensus tree in newick format: 
+
+(((EcyBK_10346orange_filt_mitofinder:0.0026484992,(EcyPB_2_filt_mitofinder:0.0007297001,EcySR_KX341964:0.0118133241)93:0.0060556513)75:0.0029654059,((((((((((EcyBK_1034blue_filt_mitofinder:0.0002656871,(EcyBK_2013_10LT24_2_filt_mitofinder:0.0001656211,EcyPB_10_filt_mitofinder:0.0004395960)59:0.0001752393)34:0.0000027520,EcyBK_2013_B24h_4_filt_mitofinder:0.0014209460)15:0.0000859061,(((EcyBK_2013_10LT24_3_filt_mitofinder:0.0009751385,((((EcyBK_2013_B24h_3_filt_mitofinder:0.0017441473,EcyBK_2016_control_129_filt_mitofinder:0.0019315512)80:0.0007092768,EcyPB_3_filt_mitofinder:0.0017609214)99:0.0011768855,EcyBK_2016_treatment_563_filt_mitofinder:0.0003447033)100:0.0023271881,EcyBK_2016_treatment_560_filt_mitofinder:0.0004496604)51:0.0005832878)51:0.0007812540,EcyBK_2016_control_562_filt_mitofinder:0.0011380912)68:0.0008915357,EcyBK_2016_control_133_filt_mitofinder:0.0009349287)24:0.0003197629)36:0.0001749660,EcyBK_2013_10LT24_4_filt_mitofinder:0.0004418882)37:0.0001618796,EcyBK_2016_control_130_filt_mitofinder:0.0005208073)54:0.0001771611,EcyBK_2013_B24h_1_filt_mitofinder:0.0005169733)65:0.0004040838,EcyBK_2013_B24h_2_filt_mitofinder:0.0002936129)66:0.0004832438,EcyBK_2013_10LT24_1_filt_mitofinder:0.0011775433)98:0.0017773995,EcyBK_2016_control_131_filt_mitofinder:0.0008174807)94:0.0040413615,EcyBK_2016_treatment_561_filt_mitofinder:0.0002309963)84:0.0059611181)100:1.0489794256,EveBK_KF690638:0.4308496581,EviSR_KM287572:0.3977729124);
+
+TIME STAMP
+----------
+
+Date and time: Tue Nov 15 12:56:29 2022
+Total CPU time used: 11.176503 seconds (0h:0m:11s)
+Total wall-clock time used: 11.04695892 seconds (0h:0m:11s)
+
